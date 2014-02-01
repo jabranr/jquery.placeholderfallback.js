@@ -22,9 +22,9 @@
 </head>
 <body>
 	<form>
-		<input type="text" id="firstNameField">
-		<input type="text" id="lastNameField">
-		<input type="email" id="emailField">
+		<input type="text" id="firstNameField" placeholder="First Name">
+		<input type="text" id="lastNameField" placeholder="Last Name">
+		<input type="email" id="emailField" placeholder="Email address">
 	</form>
 	<!--[if lt IE 10]>
 		<script>
