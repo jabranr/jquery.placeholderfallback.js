@@ -1,8 +1,12 @@
 /**
- * jQuery function to set placeholders fallback for IE9 and less
- * @author: Jabran Rafique - hello@jabran.me
- *s
- **/
+ * This is a small jQuery plugin ot provide fallback support
+ * for legacy browsers such as IE9 and lower
+ *
+ * @author: Jabran Rafique <hello@jabran.me>
+ * @license: MIT License
+ * 
+ *
+ */
 
 (function($)	{
 	$.fn.placeholderfallback = function()	{

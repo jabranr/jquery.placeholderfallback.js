@@ -1,0 +1,26 @@
+{
+  "name": "placeholder-fallback",
+  "version": "1.0.1",
+  "homepage": "https://github.com/jabranr/jquery.placeholderfallback.js",
+  "authors": [
+    "Jabran Rafique <hello@jabran.me>"
+  ],
+  "description": "Form fields placeholder fallback support for IE",
+  "main": "src/",
+  "keywords": [
+    "ie",
+    "placeholder",
+    "forms"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
