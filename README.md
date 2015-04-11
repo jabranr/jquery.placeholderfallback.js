@@ -1,9 +1,8 @@
-# Placeholders Fallback Support Plugin
+# Form fields placeholders - jQuery plugin
 
-`placeholderfallback` is a small jQuery plugin that makes use of default attributes of form fields and set them as placeholder fallback, in particular, for IE9 and lower, for a better user experience.
+`placeholderfallback` is a small jQuery plugin providing support for browsers that do not support the `placeholder` attribute for form fields, in particular for Internet Explorer 9 and lower, and Opera Mini 8. This plugin makes use of give `placeholder` attribute to set and display the values accordingly.
 
-
-## Install
+# Install
 
 **Bower**
 
@@ -11,13 +10,16 @@
 $ bower install placeholder-fallback
 ```
 
-## Usage
+# Usage
 
-+ Include the `dist/jquery.placeholderfallback.min.js` in your web document.
++ Include this plugin in your HTML:
+``` html
+<script src="path/to/jquery.placeholderfallback.min.js" type="text/javascript"></script>
+```
 + Call the method on any form field or on multiple form fields by passing them as an array.
 + Wrap this method call between IE conditional tags to make sure that it is only called when required.
 
-## Example
+# Example
 
 ``` html
 
@@ -26,7 +28,7 @@ $ bower install placeholder-fallback
 <head>
 	<title>Example</title>
 	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="dist/jquery.placeholderfallback.js"></script>
+	<script src="bower_components/placeholder-fallback/dist/jquery.placeholderfallback.js"></script>
 </head>
 <body>
 	
@@ -37,11 +39,9 @@ $ bower install placeholder-fallback
 	</form>
 
 	<!--[if lt IE 10]>
-		<script>
-			(function()	{
-				$('#firstNameField, #lastNameField, #emailField').placeholderfallback();
-			})();
-		</script>
+	<script>
+		$('#firstNameField, #lastNameField, #emailField').placeholderfallback();
+	</script>
 	<![endif]-->
 
 </body>
@@ -50,6 +50,13 @@ $ bower install placeholder-fallback
 ```
 
 
-### Dependencies
+# Dependencies
 
 Requires jQuery 1.8 +
+
+
+# License
+
+MIT License - &copy; Jabran Rafique 2013
+
+[![Analytics](https://ga-beacon.appspot.com/UA-50688851-1/jquery.placeholderfallback.js)](https://github.com/igrigorik/ga-beacon)
