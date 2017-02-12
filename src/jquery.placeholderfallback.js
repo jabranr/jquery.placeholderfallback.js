@@ -8,8 +8,12 @@
 
  !(function($)	{
  	$.fn.placeholderfallback = function()	{
- 		var $body = $('body');
 
+		if ('placeholder' in document.createElement('input')) {
+		  return;
+		}
+
+ 		var $body = $('body');
  		return this.each(function()	{
  			var $this = $(this);
  			$this.css('color', '#999');
