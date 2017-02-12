@@ -14,7 +14,7 @@ $ bower install placeholder-fallback
 
 + Include this plugin in your HTML:
 ``` html
-<script src="path/to/jquery.placeholderfallback.min.js" type="text/javascript"></script>
+<script src="path/to/jquery.placeholderfallback.js" type="text/javascript"></script>
 ```
 + Call the method on any form field or on multiple form fields by passing them as an array.
 + Wrap this method call between IE conditional tags to make sure that it is only called when required.
