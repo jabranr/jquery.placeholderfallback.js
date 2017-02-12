@@ -1,6 +1,6 @@
 {
   "name": "placeholder-fallback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/jabranr/jquery.placeholderfallback.js",
   "author": "Jabran Rafique <hello@jabran.me>",
   "description": "jQuery plugin for form fields placeholder fallback support in IE9 and lower.",

@@ -14,7 +14,7 @@ $ bower install placeholder-fallback
 
 + Include this plugin in your HTML:
 ``` html
-<script src="path/to/jquery.placeholderfallback.min.js" type="text/javascript"></script>
+<script src="path/to/jquery.placeholderfallback.js" type="text/javascript"></script>
 ```
 + Call the method on any form field or on multiple form fields by passing them as an array.
 + Wrap this method call between IE conditional tags to make sure that it is only called when required.
@@ -31,7 +31,7 @@ $ bower install placeholder-fallback
 	<script src="bower_components/placeholder-fallback/dist/jquery.placeholderfallback.js"></script>
 </head>
 <body>
-	
+
 	<form>
 		<input type="text" id="firstNameField" placeholder="First Name">
 		<input type="text" id="lastNameField" placeholder="Last Name">
@@ -54,9 +54,8 @@ $ bower install placeholder-fallback
 
 Requires jQuery 1.8 +
 
-
 # License
 
-MIT License - &copy; Jabran Rafique 2013
+MIT License - &copy; Jabran Rafique
 
 [![Analytics](https://ga-beacon.appspot.com/UA-50688851-1/jquery.placeholderfallback.js)](https://github.com/igrigorik/ga-beacon)
